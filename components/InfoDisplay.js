@@ -11,39 +11,39 @@ const InfoDisplay = ({ content }) => {
             </Head>
             <div className="my-5">
                 <div className="flex my-5">
-                    <div className="" style={{ backgroundColor: "white" }}>
-                        <img src={content.img} alt="" />
+                    <div className="">
+                        <h3>{content.Nationality}</h3>
                     </div>
                     <div className="w-full">
                         <h1 className={`text-5xl text-center`}>
-                            {content.name}
+                            {content.Name}
                         </h1>
                     </div>
                 </div>
                 <div className="flex">
                     <div className="flex-initial" style={{ flex: "1" }}>
-                        Email
+                        Position
                     </div>
                     <div className={`flex-initial`} style={{ flex: "7" }}>
-                        {content.email}
+                        {content.Position}
                     </div>
                 </div>
                 <div className="flex">
-                    <p style={{ flex: "1" }}>Gender</p>
-                    <p style={{ flex: "7" }}>{content.gender}</p>
+                    <p style={{ flex: "1" }}>Club</p>
+                    <p style={{ flex: "7" }}>{content.Club}</p>
                 </div>
 
                 <div className="flex">
-                    <p style={{ flex: "1" }}>Country</p>
-                    <p style={{ flex: "7" }}>{content.country}</p>
+                    <p style={{ flex: "1" }}>Age at Dec 20 2012</p>
+                    <p style={{ flex: "7" }}>{content["Age at Dec 20 2012"]}</p>
                 </div>
 
                 <div className="flex">
                     <p className="" style={{ flex: "1" }}>
-                        Description
+                        Birthplace
                     </p>
                     <p className={``} style={{ flex: "7" }}>
-                        {content.description}
+                        {content.Birthplace}
                     </p>
                 </div>
             </div>

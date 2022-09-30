@@ -20,9 +20,9 @@ export default function Home() {
                         Trie Application
                     </h1>
                     <div className="flex justify-center my-5">
-                        <button class="w-fit bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        <button className="w-fit bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                             <Link href={"./citizen_info"}>
-                                Search Citizen Information
+                                Lookup Top 100 Footballer 
                             </Link>
                         </button>
                     </div>
