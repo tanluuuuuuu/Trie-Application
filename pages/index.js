@@ -22,7 +22,7 @@ export default function Home() {
                     <div className="flex justify-center my-5">
                         <button className="w-fit bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                             <Link href={"./footballer"}>
-                                Recommendation search for top 100 Footballer 
+                                Recommendation search for top 100 Footballer 2012
                             </Link>
                         </button>
                     </div>
