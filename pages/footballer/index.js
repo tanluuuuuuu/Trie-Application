@@ -5,6 +5,7 @@ import _ from "lodash";
 import { useState } from "react";
 import InfoDisplay from "../../components/InfoDisplay";
 import GifBackground from "../../components/GifBackground";
+import Head from "next/head";
 
 const CitizenSearch = ({ tree }) => {
     const [suggestion, setSuggestion] = useState([]);
@@ -36,6 +37,11 @@ const CitizenSearch = ({ tree }) => {
 
     return (
         <div>
+            <Head>
+                <title>Footballer</title>
+                <meta name="Citizen info" content="Citizen info" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <GifBackground />
             <div className={[`min-h-screen flex justify-center text-white`]}>
                 <div className="w-3/5 my-2">

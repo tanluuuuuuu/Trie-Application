@@ -1,14 +1,8 @@
 import React from "react";
-import Head from "next/head";
 
 const InfoDisplay = ({ content }) => {
     return (
         <div>
-            <Head>
-                <title>Citizen info</title>
-                <meta name="Citizen info" content="Citizen info" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
             <div className="my-5">
                 <div className="flex my-5">
                     <div className="">
